@@ -4,7 +4,7 @@ function Profile() {
   return (
     <div>
       <nav>
-        <ul>
+        <ul class="ul-Profile">
           <li>
             <Link to="info">Profile Info</Link>
           </li>
@@ -16,7 +16,7 @@ function Profile() {
           </li>
         </ul>
       </nav>
-      <Outlet />
+      <Outlet /> {/* This is renders the nested routes */}
     </div>
   );
 }

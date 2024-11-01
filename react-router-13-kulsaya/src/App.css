@@ -48,3 +48,10 @@ ul {
   display: flex;
   gap: 20px;
 }
+.ul-ProductList {
+  display: flex;
+  flex-direction: column;
+}
+.ul-Profile {
+  display: inline-flex;
+}

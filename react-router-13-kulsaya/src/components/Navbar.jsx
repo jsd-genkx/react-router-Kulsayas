@@ -13,6 +13,9 @@ function Navbar() {
         <li>
           <Link to="/contact">Contact</Link>
         </li>
+        <li>
+          <Link to="/products/">Product List</Link>
+        </li>
       </ul>
     </nav>
   );
